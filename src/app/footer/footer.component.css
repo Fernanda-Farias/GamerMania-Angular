@@ -1,0 +1,120 @@
+.container-infos {
+    padding: 3% 8%;
+    color: white;
+}
+
+.container-infos h4 {
+    font-size: 1.3em;
+    margin-bottom: 4%;
+}
+
+.container-infos a,
+.container-infos p {
+    color: rgb(223, 223, 223);
+    font-size: 1em;
+    text-decoration: none;
+    line-height: 0.3em;
+    margin-left: 2%;
+    font-family: "Merriweather", serif;
+}
+
+.container-infos a:hover {
+    color: #b50000;
+}
+
+#facebook {
+    width: 15%;
+}
+
+#instagram {
+    width: 22%;
+}
+
+#redes-sociais {
+    margin-bottom: 0;
+}
+
+.container-footer-empresa {
+    background-color: #001233;
+    padding: 4%;
+    color: white;
+}
+
+.container-empresa img {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-left: 2.5%;
+}
+
+#direitos {
+    margin-top: 3%;
+}
+
+.container-footer-infos {
+    background-color: #000B1F;
+    padding-left: 3%;
+    color: white;
+}
+
+.container-infos-1,
+.container-infos-2,
+.container-infos-3,
+.container-infos-4 {
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+/*---Media Query do Footer---*/
+@media (max-width: 576px) {
+    .container-infos {
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .container-infos a,
+    .container-infos p {
+        margin-left: 0%
+    }
+
+    .container-empresa img {
+        width: 80%;
+        margin-bottom: 7%;
+    }
+
+    .container-empresa p {
+        margin-bottom: 0%;
+    }
+
+    .container-footer-empresa {
+        padding-bottom: 10%
+    }
+
+}
+
+/* Fontes importadas */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Serif:wght@100..900&display=swap');
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: bold;
+}
+
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-serif-classic {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
