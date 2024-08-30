@@ -117,6 +117,7 @@ main {
     margin: 10px 10px 30px 10px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     border: #4F4F4F 2px solid;
     border-radius: 5%;
     position: relative;
@@ -129,23 +130,23 @@ main {
 }
 
 #sony {
-    background-image: url("/empresas/sony.jpeg");
+    background-image: url("src/assets/img/sony.jpeg");
 }
 
 #microsoft {
-    background-image: url("/empresas/microsoft.jpg");
+    background-image: url("src/assets/img/microsoft.jpg");
 }
 
 #tencent {
-    background-image: url("/empresas/tencent.jpg");
+    background-image: url("src/assets/img/tencent.jpg");
 }
 
 #nintendo {
-    background-image: url("/empresas/nintendo.jpeg");
+    background-image: url("src/assets/img/nintendo.jpeg");
 }
 
 #activision {
-    background-image: url("/empresas/activision.jpg");
+    background-image: url("src/assets/img/activision.jpg");
 }
 
 /*---Media Query da Main---*/
