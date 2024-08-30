@@ -1,7 +1,7 @@
 <header>
     <div class="container header-container d-flex flex-column flex-md-row align-items-center">
       <!-- Logo -->
-      <a class="logo-header ms-3" onclick="window.location.href='index.html'">
+      <a class="logo-header ms-3" routerLink="home">
         <img src="./assets/img/logo-gamermania.png" alt="logo-gamermania">
       </a>
       <!-- Caixa de pesquisa -->
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav me-auto w-100 justify-content-around">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">SOBRE</a>
+                  <a class="nav-link" routerLink="home">SOBRE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">PRODUTOS</a>
+                  <a class="nav-link" routerLink="home">PRODUTOS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">CONTATOS</a>
+                  <a class="nav-link" routerLink="home">CONTATOS</a>
                 </li>
               </ul>
             </div>
@@ -42,8 +42,7 @@
         <a class="imagem-carrinho align-items-center me-2">
           <img src="./assets/img/carrinho.png" alt="Carrinho">
         </a>
-        <button class="btn d-flex bnt-login ms-3 justify-content-center" type="button"
-          onclick="window.location.href='login.html'">
+        <button class="btn d-flex bnt-login ms-3 justify-content-center" type="button" routerLink="login">
           <img src="./assets/img/user.png" alt="user"> <span class="text-login">ENTRAR</span>
         </button>
       </div>
