@@ -16,7 +16,8 @@ Protótipo de Baixa e Alta Fidelidade
 
 <h2>Desenvolvimento</h2>
 <h4>Foi desenvolvido o Index e o Login do site, de forma que seja possível acessar o site tanto pelo desktop quanto pelo smartphone. 
-Para o desenvolvimento, foram usadas as seguintes tecnologias:
+Para o desenvolvimento, foram usadas as seguintes tecnologias: 
+<br>
 <ul>
   <li>HTML: definição da estrutura do site.</li>
   <li>CSS: estilização e formação do layout.</li>
@@ -28,6 +29,6 @@ Para o desenvolvimento, foram usadas as seguintes tecnologias:
 
 <h2>Visibilidade</h2>
 <h4>O site está no ar pelo GitHub Pages. Clique nos seguintes links para acessar:
-<br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/home">Página Principal</a>
+<br><br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/home">Página Principal</a>
 <br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/login">Página de Login</a>
 </h4>
