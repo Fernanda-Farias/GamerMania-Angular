@@ -6,15 +6,15 @@
             <form name="loginusuario" method="post">
                 <div class="mb-3">
                     <label for="usuario" class="form-label">Usuário</label>
-                    <input type="text" class="form-control" id="usuario" name="usuario"
+                    <input type="text" class="form-control" id="usuario" name="usuario" [(ngModel)]="usuario"
                         placeholder="Email, CPF ou Número" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="senha" class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="senha" name="senha"
+                    <input type="password" class="form-control" id="senha" name="senha" [(ngModel)]="senha"
                         placeholder="Insira sua senha">
                 </div>
-                <button class="bnt rounded-3" type="button" onclick="login()">Entrar</button>
+                <button class="bnt rounded-3" type="button" (ngSubmit)="login()">Entrar</button>
             </form>
             <p><a href="">Esqueceu sua senha?</a></p>
             <p>Não tem uma conta? <a href="#" id="link-cadastro">Cadastre-se</a></p>
