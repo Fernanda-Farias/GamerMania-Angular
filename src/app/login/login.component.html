@@ -3,7 +3,7 @@
         <div class="container-login-form">
             <h1 class="merriweather-black">Faça seu login</h1>
             <span id="erro"></span>
-            <form name="loginusuario" method="post">
+            <form name="loginusuario" method="post" (ngSubmit)="login()">
                 <div class="mb-3">
                     <label for="usuario" class="form-label">Usuário</label>
                     <input type="text" class="form-control" id="usuario" name="usuario" [(ngModel)]="usuario"
@@ -14,7 +14,7 @@
                     <input type="password" class="form-control" id="senha" name="senha" [(ngModel)]="senha"
                         placeholder="Insira sua senha">
                 </div>
-                <button class="bnt rounded-3" type="button" (ngSubmit)="login()">Entrar</button>
+                <button class="bnt rounded-3" type="submit">Entrar</button>
             </form>
             <p><a href="">Esqueceu sua senha?</a></p>
             <p>Não tem uma conta? <a href="#" id="link-cadastro">Cadastre-se</a></p>

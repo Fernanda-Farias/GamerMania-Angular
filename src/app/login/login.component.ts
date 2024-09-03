@@ -8,12 +8,11 @@ import { Component } from '@angular/core';
 export class LoginComponent {
   usuario: string = '';
   senha: string = '';
-  mensagemErro: string = '';
 
   login(): void {
 
     if (!this.usuario || !this.senha) {
-      this.mensagemErro = 'Preencha os campos para efetuar o login';
+      alert('Preencha os campos para efetuar o login');
       return;
     }
 
@@ -21,7 +20,7 @@ export class LoginComponent {
       alert('Login feito com sucesso!');
       window.location.href = 'index.html';
     } else {
-      this.mensagemErro = 'Usuário ou senha incorretos.';
+      alert('Usuário ou senha incorretos.');
     }
   }
 }
