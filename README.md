@@ -1,27 +1,33 @@
-# GamerManiaAngular
+<h1>GamerMania - Angular</h1>
+<h4>O site GamerMania é um projeto desenvolvido a partir de uma atividade proposta pelo Senai no
+curso de Programação FullStack, especificamente na Unidade Curricular de Framework Front-End Com Consumo de API,
+cujo objetivo é desenvolver o mesmo site que foi desenvolvido na Unidade Curricular de Codificação para Front-End, 
+mas dessa vez utilizando o Framework Angular. Em suma, o projeto foi desenvolvido baseado no briefing com o cliente que foi fornecido, 
+que deseja um site funcional para realizar venda de jogos online seguindo um estilo prórpio.</h4>
+<h4>O site desenvolvido para a Unidade Curricular de Codificação Para Front-End pode ser visualizado aqui:
+<br><a href="https://github.com/Fernanda-Farias/GamerMania">GamerMania-Site</a></h4>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+<h2>Protótipos</h2>
+<h4>O primeiro passo para o desenvolvimento do site foi a criação do protótipo de baixa e alta fidelidade,
+ambos desenvolvidos tanto para desktop quanto para smartphone, utilizando a ferramenta Figma.</h4>
+<h4><a href="https://www.figma.com/design/MDEcZKbYvaWk65rl5Jwhhb/Projeto-Senai--GamerMania?node-id=245-291">
+Protótipo de Baixa e Alta Fidelidade
+</a></h4>
 
-## Development server
+<h2>Desenvolvimento</h2>
+<h4>Foi desenvolvido o Index e o Login do site, de forma que seja possível acessar o site tanto pelo desktop quanto pelo smartphone. 
+Para o desenvolvimento, foram usadas as seguintes tecnologias:
+<ul>
+  <li>HTML: definição da estrutura do site.</li>
+  <li>CSS: estilização e formação do layout.</li>
+  <li>Bootstrap: responsividade e alguns estilos.</li>
+  <li>JavaScript: verificação de dados para efetuar o login.</li>
+  <li>Angular: Framework que serviu como base para o desenvolvimento.</li>
+</ul>
+</h4>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h4>Visibilidade</h4>
+<h4>O site está no ar pelo GitHub Pages. Clique nos seguintes links para acessar:
+<br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/home">Página Principal</a>
+<br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/login">Página de Login</a>
+</h4>
