@@ -17,9 +17,8 @@ Protótipo de Baixa e Alta Fidelidade
 <h2>Desenvolvimento</h2>
 <h4>Foi desenvolvido o Index e o Login do site, de forma que seja possível acessar o site tanto pelo desktop quanto pelo smartphone. 
 Para o desenvolvimento, foram usadas as seguintes tecnologias: 
-<br>
 <ul>
-  <li>HTML: definição da estrutura do site.</li>
+  <br><li>HTML: definição da estrutura do site.</li>
   <li>CSS: estilização e formação do layout.</li>
   <li>Bootstrap: responsividade e alguns estilos.</li>
   <li>JavaScript: verificação de dados para efetuar o login.</li>
