@@ -26,7 +26,7 @@ Para o desenvolvimento, foram usadas as seguintes tecnologias:
 </ul>
 </h4>
 
-<h4>Visibilidade</h4>
+<h2>Visibilidade</h2>
 <h4>O site está no ar pelo GitHub Pages. Clique nos seguintes links para acessar:
 <br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/home">Página Principal</a>
 <br> <a href="https://fernanda-farias.github.io/GamerMania-Angular/login">Página de Login</a>
